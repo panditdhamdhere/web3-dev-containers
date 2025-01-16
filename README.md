@@ -45,7 +45,7 @@ Imagine you're auditing a suspicious smart contract and it has a `package.json` 
 }
 ```
 
-If you run npm install on your host machine, you'll essentailly be running a bash script from a random website on your machine! It could do things like:
+If you run npm install on your host machine, you'll essentially be running a bash script from a random website on your machine! It could do things like:
 - The script could steal your private keys from `~/.ssh`
 - Steal encrypted keys from `~/.foundry`
 - Install malware somewhere in your files
